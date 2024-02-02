@@ -21,4 +21,16 @@
   flex-direction: row;
 
   padding: 6rem 2rem 0;
+
+  @media screen and(min-width: 2000px) {
+    pading-top: 8rem;
+  }
+
+  @media screen and(max-width: 1200px) {
+    flex-direction: column;
+  }
+
+  @media screen and(max-width: 450px) {
+    pading-top: 6rem 1rem 2rem;
+  }
 }

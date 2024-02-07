@@ -21,9 +21,15 @@
   flex: 1;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+
+  // Turn OFF once you have relevant data:
+  justify-content: center;
   align-items: flex-start;
-  margin-right: 5rem;
+
+  // Turn ON once you have relevant data:
+  // justify-content: flex-start;
+  // align-items: flex-start;
+  // margin-right: 5rem;
 
   @media screen and (max-width: 900px) {
     margin-right: 0;
